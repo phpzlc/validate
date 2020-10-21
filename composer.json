@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "PHPZlc\\Validate\\": ["src"]
+            "PHPZlc\\Validate\\": "src/"
         }
     },
     "require": {
