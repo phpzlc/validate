@@ -16,9 +16,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "PHPZlc\\Validate\\": ["src"]
-        }
+        "psr-4": {  "PHPZlc\\Validate\\": "src/" }
     },
     "require": {
         "php": ">=5.5.0"
