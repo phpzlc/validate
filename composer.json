@@ -4,13 +4,14 @@
     "license": "MIT",
     "type": "library",
     "keywords": [
-        "phpzlc", "validate"
+        "phpzlc", "symfony", "validate"
     ],
-    "homepage": "http://www.redunicorn.org",
+    "support": {
+        "email": "1044295598@qq.com"
+    },
     "authors": [
         {
-            "name": "jay_he",
-            "email": "hjjhanxing@gmail.com",
+            "name": "CJayHe",
             "role": "Developer"
         }
     ],
