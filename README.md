@@ -36,7 +36,7 @@
 
 # 安装
 
-    composer require sfprogram/validate 
+    composer require phpzlc/validate  
     
 # 详细文档
    
