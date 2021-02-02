@@ -12,14 +12,6 @@
   所以本组件旨在建立一个只返回bool的验证库，以及一个面向业务的正则库，使验证可以作为最小单元进驻系统提供服务。
   
   我相信这是一个十分必要且有意义的工作。
-
-# 开源方式
-
-  有好的建议，诉求，以及想参与进来的同志，请在
-  
-  https://github.com/sfprogram/validate
-  
-  留言反馈，感谢您的支持！
   
 # 星星之火，既可燎原
     
@@ -30,8 +22,6 @@
   目标：提供最小验证基础单元
   
   规划：
-  
-     组件不对外产生依赖性，并且当前会一直在dev-master版本上，以能够更好的适应实际变化与需求。
         
      MIT开源协议
      
@@ -47,3 +37,7 @@
 # 安装
 
     composer require sfprogram/validate 
+    
+# 详细文档
+   
+   [https://phpzlc.github.io/doc/validate](https://phpzlc.github.io/doc/validate)
