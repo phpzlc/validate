@@ -40,4 +40,4 @@
     
 # 详细文档
    
-   [https://phpzlc.github.io/doc/validate](https://phpzlc.github.io/doc/validate)
+   [https://phpzlc.com/doc/validate](https://phpzlc.com/doc/validate)
