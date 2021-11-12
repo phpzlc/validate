@@ -115,40 +115,48 @@ class Validate
      * 判断小数
      *
      * @param $variable
-     * @param int $min
-     * @param int $max
+     * @param null $min
+     * @param null $max
      * @return bool
      */
-    public static function isFloat($variable, $min = 0, $max = 999999)
+    public static function isFloat($variable, $min = null, $max = null)
     {
-        $int_options = array(
-            "options" => array(
-                "min_range" => $min,
-                "max_range" => $max
-            )
-        );
+        if(!is_null($min) && !is_null($max)){
+            $int_options = array(
+                "options" => array(
+                    "min_range" => $min,
+                    "max_range" => $max
+                )
+            );
 
-        return filter_var($variable, FILTER_VALIDATE_FLOAT, $int_options) !== false;
+            return filter_var($variable, FILTER_VALIDATE_FLOAT, $int_options) !== false;
+        }else{
+            return filter_var($variable, FILTER_VALIDATE_FLOAT) !== false;
+        }
     }
 
     /**
      * 判断整数
      *
      * @param $number
-     * @param int $min
-     * @param int $max
-     * @return mixed
+     * @param null $min
+     * @param null $max
+     * @return bool
      */
-    public static function isInt($number, $min = 0, $max = 999999)
+    public static function isInt($number, $min = null, $max = null)
     {
-        $int_options = array(
-            "options" => array(
-                "min_range" => $min,
-                "max_range" => $max
-            )
-        );
+        if(!is_null($min) && !is_null($max)){
+            $int_options = array(
+                "options" => array(
+                    "min_range" => $min,
+                    "max_range" => $max
+                )
+            );
 
-        return filter_var($number, FILTER_VALIDATE_INT, $int_options) !== false;
+            return filter_var($number, FILTER_VALIDATE_INT, $int_options) !== false;
+        }else{
+            return filter_var($number, FILTER_VALIDATE_INT) !== false;
+        }
     }
 
 
