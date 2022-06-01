@@ -40,4 +40,4 @@
     
 # 详细文档
    
-   [https://phpzlc.com/doc/validate](https://phpzlc.com/doc/validate)
+   [https://phpzlc.com/doc/zh-CN/root/v2.0/phpzlc/validate](https://phpzlc.com/doc/zh-CN/root/v2.0/phpzlc/validate)
