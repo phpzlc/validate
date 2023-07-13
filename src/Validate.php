@@ -36,7 +36,7 @@ class Validate
      */
     public static function isRealEmpty($variable)
     {
-        if(empty($variable) && $variable !== 0 && $variable !== "0"){
+        if(empty($variable) && $variable !== 0 && $variable !== "0"  && $variable !== false){
             return true;
         }
 
