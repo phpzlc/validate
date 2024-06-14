@@ -19,7 +19,7 @@ class Regular
     /**
      * 正则 手机号码
      */
-    const REG_MOBILE = '/^1[2345789]{1}\d{9}$/';
+    const REG_MOBILE = '/^1[23456789]{1}\d{9}$/';
 
     /**
      * 正则 WX号
